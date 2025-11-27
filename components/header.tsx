@@ -21,23 +21,26 @@ export default function Header() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/about" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/" className="text-foreground hover:text-primary transition-colors">
+            Home
+          </Link>
+          <Link href="/#" className="text-foreground hover:text-primary transition-colors">
             About
           </Link>
-          <Link href="/services" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/#" className="text-foreground hover:text-primary transition-colors">
             Services
           </Link>
-          <Link href="/team" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/#" className="text-foreground hover:text-primary transition-colors">
             Team
           </Link>
-          <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/#" className="text-foreground hover:text-primary transition-colors">
             Contact
           </Link>
         </div>
 
         {/* CTA Buttons - Desktop */}
         <div className="hidden md:flex gap-3">
-          <Button variant="outline">Sign In</Button>
+          {/* <Button variant="outline">Sign In</Button> */}
           <Button className="bg-primary hover:bg-primary/90">Get Started</Button>
         </div>
 
@@ -51,6 +54,9 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden border-t border-border bg-card">
           <div className="px-4 py-4 space-y-4">
+            <Link href="/" className="block text-foreground hover:text-primary">
+              Home
+            </Link>
             <Link href="/about" className="block text-foreground hover:text-primary">
               About
             </Link>
@@ -64,9 +70,9 @@ export default function Header() {
               Contact
             </Link>
             <div className="space-y-2 pt-4">
-              <Button variant="outline" className="w-full bg-transparent">
+              {/* <Button variant="outline" className="w-full bg-transparent">
                 Sign In
-              </Button>
+              </Button> */}
               <Button className="w-full bg-primary hover:bg-primary/90">Get Started</Button>
             </div>
           </div>

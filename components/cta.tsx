@@ -27,15 +27,15 @@ export default function CTA() {
 
         <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-white/20">
           <div>
-            <div className="text-4xl font-bold">500+</div>
+            <div className="text-4xl font-bold">100+</div>
             <p className="text-sm opacity-75 mt-2">Successful Trades</p>
           </div>
           <div>
-            <div className="text-4xl font-bold">300+</div>
+            <div className="text-4xl font-bold">20+</div>
             <p className="text-sm opacity-75 mt-2">Teachers Placed</p>
           </div>
           <div>
-            <div className="text-4xl font-bold">50+</div>
+            <div className="text-4xl font-bold">5+</div>
             <p className="text-sm opacity-75 mt-2">Partner Countries</p>
           </div>
         </div>
