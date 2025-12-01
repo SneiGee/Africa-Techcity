@@ -26,12 +26,12 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm opacity-75">
               <li>
-                <Link href="#" className="hover:opacity-100 transition-opacity">
+                <Link href="/services/itrade" className="hover:opacity-100 transition-opacity">
                   ITrade Africa
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:opacity-100 transition-opacity">
+                <Link href="/services/itec" className="hover:opacity-100 transition-opacity">
                   ITEC Education
                 </Link>
               </li>
@@ -53,7 +53,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm opacity-75">
               <li>
-                <Link href="#" className="hover:opacity-100 transition-opacity">
+                <Link href="/about" className="hover:opacity-100 transition-opacity">
                   About Us
                 </Link>
               </li>
