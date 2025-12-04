@@ -49,7 +49,7 @@ export default function Contact() {
                     <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary">
                       +1 (234) 567-890
                     </a>
-                    <p className="text-sm text-muted-foreground mt-2">Available Monday - Friday, 9AM - 6PM</p>
+                    <p className="text-sm text-muted-foreground mt-2">Available Monday - Friday, 9AM - 5PM</p>
                   </div>
                 </div>
 
@@ -83,19 +83,22 @@ export default function Contact() {
                 <h3 className="font-semibold text-foreground mb-4">Follow Us</h3>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://www.facebook.com/profile.php?id=61581423014492"
+                    target="_blank"
                     className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
                     <span className="text-sm">f</span>
                   </a>
                   <a
-                    href="#"
+                    href="https://x.com/itrade_africa"
+                    target="_blank"
                     className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
                     <span className="text-sm">𝕏</span>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/itrade-africa/"
+                    target="_blank"
                     className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
                     <span className="text-sm">in</span>
