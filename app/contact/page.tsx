@@ -45,9 +45,9 @@ export default function Contact() {
                 <div className="flex gap-4">
                   <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                    <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary">
-                      +1 (234) 567-890
+                    <h3 className="font-semibold text-foreground mb-1">Phone / WhatsApp</h3>
+                    <a href="tel:+233247145337" className="text-muted-foreground hover:text-primary">
+                      +233 (024) 714-5337
                     </a>
                     <p className="text-sm text-muted-foreground mt-2">Available Monday - Friday, 9AM - 5PM</p>
                   </div>
@@ -58,9 +58,9 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Office</h3>
                     <p className="text-muted-foreground">
-                      123 Tech Boulevard
+                      97 Kumasi City Mall, Hudson & Lake Road
                       <br />
-                      Accra, Ghana
+                      Kumasi, Ghana
                     </p>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export default function Contact() {
                   />
                 </div>
 
-                <Button className="w-full bg-primary hover:bg-primary/90 py-6">Send Message</Button>
+                <Button disabled className="w-full bg-primary hover:bg-primary/90 py-6">Send Message</Button>
               </form>
             </div>
           </div>

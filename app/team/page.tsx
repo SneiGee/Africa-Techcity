@@ -59,7 +59,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: 7,
-    name: "Ms. ZILLA GEORGE OSEI NYAMEKYE",
+    name: "Ms. ZILLA G OSEI NYAMEKYE",
     role: "Account Manager",
     image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764848707/WhatsApp_Image_2025-12-04_at_11.28.04_afvm48.jpg",
     bio: "David ensures seamless execution of all partnerships with meticulous attention to detail and a commitment to excellence in every project.",
