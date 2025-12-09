@@ -15,19 +15,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1765285209/tech-africa-map-combination-logo-innovative-geographical-vector-design_579306-26286_xlgkug.jpg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1765285209/tech-africa-map-combination-logo-innovative-geographical-vector-design_579306-26286_xlgkug.jpg",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1765285209/tech-africa-map-combination-logo-innovative-geographical-vector-design_579306-26286_xlgkug.jpg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1765285209/tech-africa-map-combination-logo-innovative-geographical-vector-design_579306-26286_xlgkug.jpg",
   },
 }
 
