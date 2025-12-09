@@ -64,7 +64,7 @@ export default function WhyChooseUs() {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl overflow-hidden flex items-center justify-center">
               <img
-                src="/business-meeting-with-professionals-from-africa-an.jpg"
+                src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765275698/business-meeting-with-professionals-from-africa-an_dwrly3.jpg"
                 alt="Partnership"
                 className="w-full h-full object-cover rounded-2xl"
               />

@@ -1,12 +1,12 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Link from "next/link"
-import { ArrowRight, ShoppingCart, Briefcase, Users, TrendingUp } from "lucide-react"
+import { ArrowRight, ShoppingCart, Briefcase, Users, TrendingUp, Plane } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export const metadata = {
   title: "Services - Africa Techcity",
-  description: "Explore Africa Techcity's comprehensive services for trade and education recruitment.",
+  description: "Explore Africa Techcity's comprehensive import/export, recruitment, and professional opportunity services.",
 }
 
 export default function Services() {
@@ -19,7 +19,8 @@ export default function Services() {
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">Our Services</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Comprehensive solutions tailored to unlock opportunities between Africa and China
+              Comprehensive trade solutions, professional recruitment, and global opportunities connecting Africa with
+              markets worldwide
             </p>
           </div>
         </section>
@@ -38,21 +39,21 @@ export default function Services() {
                   <ArrowRight className="w-6 h-6 text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Connecting African businesses with global suppliers, streamlining sourcing, procurement, and trade
-                  operations across continents.
+                  Import premium goods including electric vehicles, electronics, renewable energy, and more. Export
+                  African products to global markets. Simplified logistics, quality assurance, and competitive pricing.
                 </p>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start gap-3">
                     <TrendingUp className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Supply Chain Management</span>
+                    <span className="text-foreground">Import & Export Management</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <TrendingUp className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
-                    <span className="text-foreground">B2B Trade Partnerships</span>
+                    <span className="text-foreground">Supplier Network & Quality Control</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <TrendingUp className="w-5 h-5 text-secondary flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Market Expansion Support</span>
+                    <span className="text-foreground">Logistics & Customs Support</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-primary hover:bg-primary/90">Learn More</Button>
@@ -70,21 +71,21 @@ export default function Services() {
                   <ArrowRight className="w-6 h-6 text-secondary opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Recruitment and talent placement services connecting qualified African professionals with
-                  international educational and employment opportunities.
+                  Connect with global opportunities—teach internationally, secure professional employment, or pursue
+                  higher education. Complete visa, placement, and relocation support included.
                 </p>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start gap-3">
                     <Briefcase className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Talent Recruitment</span>
+                    <span className="text-foreground">Teaching Abroad Programs</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Briefcase className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Education Placement</span>
+                    <span className="text-foreground">International Employment</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <Briefcase className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-foreground">Professional Development</span>
+                    <Plane className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
+                    <span className="text-foreground">Study Abroad & Scholarships</span>
                   </li>
                 </ul>
                 <Button className="w-full bg-secondary hover:bg-secondary/90">Learn More</Button>
@@ -101,21 +102,21 @@ export default function Services() {
               <div className="text-4xl font-bold text-primary mb-4">500+</div>
               <h3 className="text-xl font-bold text-foreground mb-3">Successful Partnerships</h3>
               <p className="text-muted-foreground">
-                Proven track record of connecting businesses and professionals across continents.
+                Proven track record of connecting businesses and professionals across continents with lasting success.
               </p>
             </div>
             <div className="bg-card border border-border rounded-lg p-8">
               <div className="text-4xl font-bold text-secondary mb-4">24/7</div>
               <h3 className="text-xl font-bold text-foreground mb-3">Dedicated Support</h3>
               <p className="text-muted-foreground">
-                Round-the-clock assistance to ensure smooth operations and timely communication.
+                Round-the-clock assistance to ensure smooth operations, timely communication, and issue resolution.
               </p>
             </div>
             <div className="bg-card border border-border rounded-lg p-8">
               <div className="text-4xl font-bold text-accent mb-4">100%</div>
               <h3 className="text-xl font-bold text-foreground mb-3">Transparency</h3>
               <p className="text-muted-foreground">
-                Clear processes and honest communication every step of your journey.
+                Clear processes, honest communication, and documented support every step of your journey with us.
               </p>
             </div>
           </div>
