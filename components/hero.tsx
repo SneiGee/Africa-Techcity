@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -23,12 +24,26 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg h-auto">
-              Explore ITrade <ArrowRight className="ml-2" size={20} />
+
+            <Button
+              asChild
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg h-auto cursor-pointer"
+            >
+              <Link href="/services/itrade">
+                Explore ITrade <ArrowRight className="ml-2" size={20} />
+              </Link>
             </Button>
-            <Button variant="outline" className="border-border px-8 py-6 text-lg h-auto bg-transparent">
-              Join ITEC <ArrowRight className="ml-2" size={20} />
+
+            <Button
+              asChild
+              variant="outline"
+              className="border-border px-8 py-6 text-lg h-auto bg-transparent cursor-pointer"
+            >
+              <Link href="/services/itec">
+                Explore ITEC <ArrowRight className="ml-2" size={20} />
+              </Link>
             </Button>
+
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { BookOpen, Award, Briefcase, Globe, Users, Zap, DollarSign, Lightbulb, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export const metadata = {
   title: "ITEC - Teacher Recruitment & International Education Opportunities",
@@ -25,7 +26,9 @@ export default function ITEC() {
               abroad, and pursue international education
             </p>
             <Button size="lg" className="bg-secondary hover:bg-secondary/90">
-              Explore Global Opportunities
+              <Link href="/contact">
+                Explore Global Opportunities
+              </Link>
             </Button>
           </div>
         </section>
@@ -219,8 +222,10 @@ export default function ITEC() {
             <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
               Join thousands of African professionals who've unlocked global opportunities through ITEC.
             </p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Get Started Today
+            <Button size="lg" className="bg-primary hover:bg-primary/90 cursor-pointer">
+              <Link href="/contact">
+                Get Started Today
+              </Link>
             </Button>
           </div>
         </section>

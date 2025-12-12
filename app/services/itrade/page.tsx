@@ -2,6 +2,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { CheckCircle2, Globe, Zap, BarChart3, Users, Shield, TrendingUp, Package } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export const metadata = {
   title: "ITrade Africa - Import/Export & Sourcing Solutions",
@@ -21,7 +22,9 @@ export default function ITrade() {
               Bridging Africa and the world through seamless import and export solutions, with special focus on Asia
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Start Trading Today
+              <Link href="/contact">
+                Start Your Trading Journey
+              </Link>
             </Button>
           </div>
         </section>
@@ -153,42 +156,42 @@ export default function ITrade() {
             <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Featured Products</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765282910/BYD-Seagull-11kkk_uod4kl.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765282910/BYD-Seagull-11kkk_uod4kl.jpg"
                   alt="Electric Vehicle" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Electric Vehicles</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276175/blue-black-scooter-with-word-scooter-side_999340-52074_cmjxdu.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276175/blue-black-scooter-with-word-scooter-side_999340-52074_cmjxdu.jpg"
                   alt="Electric Bike" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Electric Bike</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276121/aboboyaa-tricycle-768x557_hnuacy.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276121/aboboyaa-tricycle-768x557_hnuacy.jpg"
                   alt="Tricycle" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Tricycle</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765283127/is-best-skirts-for-women-tout-d5129862f06c4a00a822bc1db2f70aa9_kb4dug.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765283127/is-best-skirts-for-women-tout-d5129862f06c4a00a822bc1db2f70aa9_kb4dug.jpg"
                   alt="Women'sClothing" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Women's Clothing</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276343/OIP_sl0nel.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276343/OIP_sl0nel.jpg"
                   alt="Paints  Brushes" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Paints Brushes</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765283272/OIP_15_fwd0qn.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765283272/OIP_15_fwd0qn.jpg"
                   alt="Men's Clothing" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Men's Clothing</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765283157/Webp.net-compress-image_hqyctv.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765283157/Webp.net-compress-image_hqyctv.jpg"
                   alt="Shoe & Sneakers" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Shoes & Sneakers</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276175/OIP_12_p4qk7o.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276175/OIP_12_p4qk7o.jpg"
                   alt="Electronics" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Electronics</p>
               </div>
@@ -198,7 +201,7 @@ export default function ITrade() {
                 <p className="p-3 text-sm font-semibold text-foreground">Lithium Batteries</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765275697/african-artisan-crafts-handmade-art_q2jsbx.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765275697/african-artisan-crafts-handmade-art_q2jsbx.jpg"
                   alt="African Crafts" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">African Crafts</p>
               </div>
@@ -211,12 +214,12 @@ export default function ITrade() {
                 <p className="p-3 text-sm font-semibold text-foreground">Agricultural Equipment</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765275698/bamboo-products-eco-friendly-sustainable_tkmx1w.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765275698/bamboo-products-eco-friendly-sustainable_tkmx1w.jpg"
                   alt="Bamboo Products" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">Bamboo Products</p>
               </div>
               <div className="rounded-lg overflow-hidden bg-card border border-border">
-                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276317/il_600x600.2802228868_suqh_jkk0oc.jpg" 
+                <img src="https://res.cloudinary.com/duiy6kpg0/image/upload/v1765276317/il_600x600.2802228868_suqh_jkk0oc.jpg"
                   alt="African Kante" className="w-full h-60 object-cover" />
                 <p className="p-3 text-sm font-semibold text-foreground">African Kante</p>
               </div>
@@ -323,8 +326,10 @@ export default function ITrade() {
               Join hundreds of African businesses and international traders already leveraging iTradeAfrica to transform
               their operations.
             </p>
-            <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-              Start Your Trading Journey
+            <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 cursor-pointer">
+              <Link href="/contact">
+                Start Your Trading Journey
+              </Link>
             </Button>
           </div>
         </section>

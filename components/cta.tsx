@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function CTA() {
   return (
@@ -15,13 +16,17 @@ export default function CTA() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button className="bg-white hover:bg-white/90 text-primary px-8 py-6 text-lg h-auto font-semibold">
-            Start Trading Today <ArrowRight className="ml-2" size={20} />
+            <Link href="/contact">
+              Start Trading Now
+            </Link>
           </Button>
           <Button
             variant="outline"
             className="border-white text-white hover:bg-white/10 px-8 py-6 text-lg h-auto bg-transparent"
           >
-            Apply for Teaching Position
+            <Link href="/contact">
+              Apply for Teaching Position
+            </Link>
           </Button>
         </div>
 

@@ -73,7 +73,9 @@ export default function Header() {
               {/* <Button variant="outline" className="w-full bg-transparent">
                 Sign In
               </Button> */}
-              <Button className="w-full bg-primary hover:bg-primary/90">Get Started</Button>
+              <Button className="w-full bg-primary hover:bg-primary/90">
+                Get Started
+              </Button>
             </div>
           </div>
         </div>
