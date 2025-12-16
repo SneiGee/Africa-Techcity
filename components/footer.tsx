@@ -81,7 +81,7 @@ export default function Footer() {
             <div className="space-y-3 text-sm opacity-75">
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>yowusu@africatechcity.com | schneider@africatechcity.com</span>
+                <span>info@africatechcity.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} />

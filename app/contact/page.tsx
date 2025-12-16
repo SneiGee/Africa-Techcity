@@ -36,7 +36,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
                     <a href="mailto:info@africatechcity.com" className="text-muted-foreground hover:text-primary">
-                      yowusu@africatechcity.com | schneider@africatechcity.com
+                      info@africatechcity.com
                     </a>
                     <p className="text-sm text-muted-foreground mt-2">We'll respond within 24 hours</p>
                   </div>
@@ -97,7 +97,7 @@ export default function Contact() {
                     <span className="text-sm">𝕏</span>
                   </a>
                   <a
-                    href="https://www.linkedin.com/company/itrade-africa/"
+                    href="https://www.linkedin.com/company/africa-techcity"
                     target="_blank"
                     className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
