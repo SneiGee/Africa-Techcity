@@ -41,7 +41,11 @@ export default function Header() {
         {/* CTA Buttons - Desktop */}
         <div className="hidden md:flex gap-3">
           {/* <Button variant="outline">Sign In</Button> */}
-          <Button className="bg-primary hover:bg-primary/90">Get Started</Button>
+          <Button className="bg-primary hover:bg-primary/90">
+            <Link href="/contact">
+              Get Started
+            </Link>
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -73,8 +77,13 @@ export default function Header() {
               {/* <Button variant="outline" className="w-full bg-transparent">
                 Sign In
               </Button> */}
-              <Button className="w-full bg-primary hover:bg-primary/90">
-                Get Started
+              <Button
+                asChild
+                className="w-full bg-primary hover:bg-primary/90"
+              >
+                <Link href="/contact">
+                  Get Started
+                </Link>
               </Button>
             </div>
           </div>
