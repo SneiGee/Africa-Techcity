@@ -4,6 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,10 +14,24 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">AT</span>
+          <div className="w-10 h-10  flex items-center justify-center">
+            <Image
+              src="/logo-1.png"
+              alt="Africa Techcity Logo Icon"
+              width={40}
+              height={40}
+              className="w-10 h-10"
+            />
           </div>
-          <span className="font-bold text-xl text-foreground hidden sm:inline">Africa Techcity</span>
+          <span className="font-bold text-xl text-foreground hidden sm:inline">
+            <Image
+              src="/logo-2.png"
+              alt="Africa Techcity Logo Text"
+              width={140}
+              height={40}
+              className="w-auto h-10"
+            />
+          </span>
         </Link>
 
         {/* Desktop Menu */}
