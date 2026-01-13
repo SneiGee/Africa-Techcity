@@ -25,11 +25,11 @@ export default function Header() {
           </div>
           <span className="font-bold text-xl text-foreground hidden sm:inline">
             <Image
-              src="/logo-2.png"
+              src="/logo-4.jpeg"
               alt="Africa Techcity Logo Text"
               width={140}
               height={40}
-              className="w-auto h-10"
+              className="w-auto h-8"
             />
           </span>
         </Link>
