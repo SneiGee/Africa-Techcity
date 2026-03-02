@@ -37,18 +37,39 @@ const teamMembers: TeamMember[] = [
     bio: "Chen Wei brings 15 years of educational recruitment experience. He is passionate about creating pathways for African talents to thrive globally.",
   },
   {
+    id: 5,
+    name: "MR. MICHAEL SCHNEIDER",
+    role: "IT Manager",
+    image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764849309/myofficial_bsl0r6.jpg",
+    bio: "Michael manages all technical infrastructure and digital initiatives, ensuring our platforms remain secure, scalable, and user-friendly.",
+  },
+  {
+    id: 8,
+    name: "MS. JOY SHARON OKPALA",
+    role: "Account Manager - Marketing",
+    image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764848706/WhatsApp_Image_2025-12-04_at_10.07.57_g7jhse.jpg",
+    bio: "Maria builds strategic partnerships and identifies new market opportunities, expanding Africa Techcity's reach across multiple sectors.",
+  },
+  {
+    id: 5,
+    name: "MR. LATIF RAZAK",
+    role: "Communications Manager",
+    image: "",
+    bio: "Latif manages all communications and public relations activities, ensuring clear and consistent messaging across all channels.",
+  },
+  {
+    id: 7,
+    name: "MR. WISDOM CHOFUGYIE",
+    role: "Communications Consultant",
+    image: "",
+    bio: "Wisdom manages all communications and public relations activities, ensuring clear and consistent messaging across all channels.",
+  },
+  {
     id: 4,
     name: "MR. SAMUEL SELORMEY AVEVOR",
     role: "International Business Manager",
     image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764848707/WhatsApp_Image_2025-12-04_at_10.09.59_jkutx3.jpg",
     bio: "David ensures seamless execution of all partnerships with meticulous attention to detail and a commitment to excellence in every project.",
-  },
-  {
-    id: 5,
-    name: "MR. MICHAEL SCHNEIDER",
-    role: "IT Manager",
-    image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764849309/myofficial_bsl0r6.jpg",
-    bio: "Maria builds strategic partnerships and identifies new market opportunities, expanding Africa Techcity's reach across multiple sectors.",
   },
   {
     id: 6,
@@ -63,13 +84,6 @@ const teamMembers: TeamMember[] = [
     role: "Account Manager",
     image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764848707/WhatsApp_Image_2025-12-04_at_11.28.04_afvm48.jpg",
     bio: "David ensures seamless execution of all partnerships with meticulous attention to detail and a commitment to excellence in every project.",
-  },
-  {
-    id: 8,
-    name: "MS. JOY SHARON OKPALA",
-    role: "Account Manager - Marketing",
-    image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764848706/WhatsApp_Image_2025-12-04_at_10.07.57_g7jhse.jpg",
-    bio: "Maria builds strategic partnerships and identifies new market opportunities, expanding Africa Techcity's reach across multiple sectors.",
   },
 ]
 
