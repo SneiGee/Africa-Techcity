@@ -54,14 +54,14 @@ const teamMembers: TeamMember[] = [
     id: 5,
     name: "MR. LATIF RAZAK",
     role: "Communications Manager",
-    image: "",
+    image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1772636190/WhatsApp_Image_2026-03-04_at_10.43.53_u0ldvv.jpg",
     bio: "Latif manages all communications and public relations activities, ensuring clear and consistent messaging across all channels.",
   },
   {
     id: 7,
     name: "MR. WISDOM CHOFUGYIE",
     role: "Communications Consultant",
-    image: "",
+    image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1772636190/WhatsApp_Image_2026-03-03_at_09.40.32_qxgex6.jpg",
     bio: "Wisdom manages all communications and public relations activities, ensuring clear and consistent messaging across all channels.",
   },
   {
