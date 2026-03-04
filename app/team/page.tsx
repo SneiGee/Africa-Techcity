@@ -37,18 +37,18 @@ const teamMembers: TeamMember[] = [
     bio: "Chen Wei brings 15 years of educational recruitment experience. He is passionate about creating pathways for African talents to thrive globally.",
   },
   {
+    id: 8,
+    name: "MS. JOY SHARON OKPALA",
+    role: "General Manager",
+    image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764848706/WhatsApp_Image_2025-12-04_at_10.07.57_g7jhse.jpg",
+    bio: "Maria builds strategic partnerships and identifies new market opportunities, expanding Africa Techcity's reach across multiple sectors.",
+  },
+  {
     id: 5,
     name: "MR. MICHAEL SCHNEIDER",
     role: "IT Manager",
     image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764849309/myofficial_bsl0r6.jpg",
     bio: "Michael manages all technical infrastructure and digital initiatives, ensuring our platforms remain secure, scalable, and user-friendly.",
-  },
-  {
-    id: 8,
-    name: "MS. JOY SHARON OKPALA",
-    role: "Account Manager - Marketing",
-    image: "https://res.cloudinary.com/duiy6kpg0/image/upload/v1764848706/WhatsApp_Image_2025-12-04_at_10.07.57_g7jhse.jpg",
-    bio: "Maria builds strategic partnerships and identifies new market opportunities, expanding Africa Techcity's reach across multiple sectors.",
   },
   {
     id: 5,
